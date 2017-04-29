@@ -12,7 +12,7 @@ $(error HADOOP_VERSION is undefined)
 endif
 
 DOCKER_IMAGE_$(d) := b9company/spark
-DOCKER_TAG_$(d) := $(SPARK_VERSION)-hadoop$(HADOOP_VERSION)
+DOCKER_TAG_$(d) := $(SPARK_VERSION)-hadoop$(HADOOP_VERSION)-py3
 
 BUILD := $(BUILD) build_$(d)
 PUSH := $(PUSH) push_$(d)

@@ -1,4 +1,4 @@
-FROM openjdk:7-jre
+FROM openjdk:8-jre
 
 LABEL maintainer="the B9 Company <lab@b9company.fr>"
 
